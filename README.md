@@ -1,5 +1,5 @@
 # Vocal_MNIST_predictor
-This project objective is to predict voice content by converting it from an audio signal to an image and run it through a Convolution Neural Network (CNN).
+The objective of is project is to predict voice content by converting it from an audio signal to an image and run it through a Convolution Neural Network (CNN).
 
 # Citation:
 Raw dataset is based on Free Spoken Digit Data (FSDD) dataset by: Zohar Jackson, César Souza, Jason Flaks, Yuxin Pan, Hereman Nicolas, & Adhish Thite. (2018).
