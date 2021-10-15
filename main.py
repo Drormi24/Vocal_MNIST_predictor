@@ -4,9 +4,9 @@ from tensorflow.keras import models
 
 # global params
 # define paths to audio files and spctrogram images files
-audio_path = 'C:/Users/frido/Documents/GitHub/FSDD/data/'
-img_path = 'C:/Users/frido/Documents/GitHub/FSDD/audio_images/'
-model_path = 'C:/Users/frido/Documents/GitHub/FSDD/utils/my_model'
+audio_path = 'data/'
+img_path = 'audio_images/'
+model_path = 'utils/my_model'
 p = 0.7           # train data split % factor 
 num_classes = 10  # number of classes to be predicted
 img_size = 28     # image size. NOTE! if changed-model structure will need adjustments
