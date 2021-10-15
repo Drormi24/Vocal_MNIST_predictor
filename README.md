@@ -8,13 +8,16 @@ audio file structure and naming: .wav file named 8_dror_0.wav where 8 is the fil
 
 Main process: take audio .wav file --> convert it from continuous signal to a descrete frequencies distribution using Fast Furier Transform --> represnt audio in a spectrogram image of frequencies over time --> convert spectrogram images to a numeric representation and cranch it in a CNN training procedure to get a digit written identification of its FSDD audio file.
 
-A simple signal rep. - amplitude over time
+A simple signal rep. - amplitude over time.
+
 ![image](https://user-images.githubusercontent.com/88071463/137537345-6af4142f-17cf-4d52-9a5f-488b06beaaad.png)
 
-A rep. of signal - magnitude over frequencies
+A rep. of signal - magnitude over frequencies.
+
 ![image](https://user-images.githubusercontent.com/88071463/137537249-db3b7218-382f-4616-bdf6-589e82fdea40.png)
 
-An example of '7' audio file spectrogram image
+An example of '7' audio file spectrogram image.
+
 ![audio_images7](https://user-images.githubusercontent.com/88071463/137536118-c57d4905-8881-4424-8f32-2cb446d73710.jpg)
 
 Side process: run_your_audio is doing the same conversion from an audio to an image but using CNN as a predicition tool.
