@@ -8,9 +8,9 @@ import warnings
 warnings.filterwarnings('always')
 
 # define paths to audio files and spctrogram images files
-audio_path = 'C:/Users/frido/Documents/GitHub/FSDD/run_your_eval/recordings'
-img_path = 'C:/Users/frido/Documents/GitHub/FSDD/run_your_eval/images/'
-model_path = 'C:/Users/frido/Documents/GitHub/FSDD/utils/my_model'
+audio_path = 'run_your_eval/recordings'
+img_path = 'run_your_eval/images/'
+model_path = 'utils/my_model'
 show_flag = 'True'  # show or not spctrogram results
 img_size = 28       # image size must be 28*28*1
 num_classes = 10    #number of classes
